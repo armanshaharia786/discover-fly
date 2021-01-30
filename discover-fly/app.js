@@ -70,8 +70,8 @@ document.querySelector('.book-now').addEventListener('click', function () {
     const economyTicket = document.querySelector('.economy-ticket-amount').value;
 
     if (!fryingFrom || !fryingTo || !fryingDeparture || !fryingReturn || !firstClassTicket || !economyTicket) {
-        document.querySelector('.warning').textContent = '⚠ Please fill all filds 😣';
-        //alert('Please fill all filds 😣');
+        document.querySelector('.warning').textContent = '⚠ Please fill all filds ';
+       
     } else {
         document.querySelector('.booking-form').style.display = 'none';
         document.querySelector('.booking-details').style.display = 'block';
